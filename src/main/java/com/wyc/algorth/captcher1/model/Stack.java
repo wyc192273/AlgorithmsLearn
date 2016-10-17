@@ -23,6 +23,7 @@ public class Stack<Item> {
     public Item pop(){
         Item item = first.item;
         first = first.next;
+        size--;
         return item;
     }
 
