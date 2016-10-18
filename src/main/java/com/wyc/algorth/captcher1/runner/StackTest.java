@@ -10,6 +10,10 @@ public class StackTest {
         Stack<Integer> stack = new Stack<Integer>();
         stack.push(1);
         stack.push(2);
-        System.out.println(stack.pop());
+//        System.out.println(stack.pop());
+
+        for(int a : stack){
+            System.out.println(a);
+        }
     }
 }
